@@ -11,10 +11,10 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(string)
-  if string == string.downcase
-    "HUH?! SPEAK UP, SONNY!"
-  elsif string == string.upcase && string == 'I LOVE YOU GRANDMA!'
+  if string == 'I LOVE YOU GRANDMA!'
     'I LOVE YOU TOO PUMPKIN!'
+  elsif string = string.downcase
+    "HUH?! SPEAK UP, SONNY!"
   else
     "NO, NOT SINCE 1938!"
   end
